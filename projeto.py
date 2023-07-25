@@ -11,8 +11,7 @@ import warnings
 
 # Connection String of Mongodb #
 server = pymongo.MongoClient(
-    "mongodb+srv://Vinicius:MQ5XwYGomMoSp2Fe@cluster0.els7jbn.mongodb.net/?retryWrites=true&w"
-    "=majority")
+    "")
 database = server.get_database('Projeto')
 collection = database.get_collection('TechStore')
 
